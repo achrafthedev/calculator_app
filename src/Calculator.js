@@ -1,10 +1,11 @@
+
 import React, { useState } from 'react';
 import './App.css';
 
 const Calculator = () => {
     const [input, setInput] = useState('');
+    const [darkMode, setDarkMode] = useState(false);
 
-    // Handle button clicks
     const handleClick = (value) => {
         if (value === '±') {
             setInput((prev) => (prev ? (-1 * parseFloat(prev)).toString() : ''));
@@ -19,12 +20,10 @@ const Calculator = () => {
         }
     };
 
-    // Clear input
     const handleClear = () => {
         setInput('');
     };
 
-    // Evaluate the expression
     const handleCalculate = () => {
         try {
             setInput(eval(input).toString());
@@ -33,8 +32,12 @@ const Calculator = () => {
         }
     };
 
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+    };
+
     return (
-        <div className="calculator container mt-5">
+        <div className={`calculator container mt-5 ${darkMode ? 'dark-mode' : ''}`}>
             <h2 className="text-center mb-4">React Calculator</h2>
             <div className="card p-3">
                 <input
@@ -73,9 +76,10 @@ const Calculator = () => {
                     <button className="btn btn-light col-3" onClick={() => handleClick('.')}>.</button>
                     <button className="btn btn-success col-3" onClick={handleCalculate}>=</button>
                 </div>
-                <div className="row">
-                    <button className="btn btn-info col-6" onClick={() => handleClick('√')}>√ (Square Root)</button>
-                    <button className="btn btn-dark col-6" onClick={() => handleClick('^2')}>^2 (Square)</button>
+                <div className="row mt-4">
+                    <button className="btn btn-dark col-12" onClick={toggleDarkMode}>
+                        {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+                    </button>
                 </div>
             </div>
         </div>
