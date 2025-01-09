@@ -1,70 +1,113 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🧮 React Calculator App
 
-## Available Scripts
+Welcome to the **React Calculator App**! This project is a fully functional calculator built with **React** and styled using **Bootstrap 5**. It includes both basic arithmetic operations and advanced features to make it a practical and modern calculator.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📂 Repository
+**GitHub User**: [achrafthedev](https://github.com/achrafthedev)  
+**Repository Name**: [react-calculator-app](https://github.com/achrafthedev/react-calculator-app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
+- ✅ **Basic Arithmetic Operations**: Addition, Subtraction, Multiplication, Division
+- 🧪 **Advanced Functions**: Square Root, Exponent, Percentage, Invert Sign
+- 🖥️ **Keyboard Support**: Allows users to type numbers and operators using their keyboard
+- 🎨 **Responsive Design**: Works perfectly on both desktop and mobile devices
+- 🌗 **Dark Mode (Optional)**: Users can switch between light and dark themes
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 How to Run the Project
 
-### `npm run build`
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/achrafthedev/react-calculator-app.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2️⃣ Navigate to the Project Directory
+```bash
+cd react-calculator-app
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3️⃣ Install Dependencies
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4️⃣ Run the App
+```bash
+npm start
+```
 
-### `npm run eject`
+The app will be available at **http://localhost:3000** in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technologies Used
+- **React** (JavaScript library for building user interfaces)
+- **Bootstrap 5** (for styling and responsive design)
+- **CSS3** (custom styles for the calculator)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Project Structure
+```
+react-calculator-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── Calculator.js
+│   ├── App.css
+│   └── index.js
+```
 
-## Learn More
+- **App.js**: Main app component
+- **Calculator.js**: Calculator component containing the logic and UI
+- **App.css**: Custom styles
+- **index.js**: Entry point for the React app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 UI Enhancements
+- The app uses **Bootstrap 5** for a clean and modern UI.
+- Custom **CSS styles** are applied for additional enhancements.
+- The app is fully **responsive** and works perfectly on all devices.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎯 How It Works
+1. The calculator accepts user input via buttons or keyboard.
+2. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+3. It also includes advanced functions like square root, exponent, percentage, and invert sign.
+4. Users can clear the entire input (C) or delete the last entry (CE).
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤖 Future Improvements
+- Add a **history feature** to keep track of previous calculations.
+- Implement a **scientific mode** with more advanced functions.
+- Add a **dark mode toggle** to switch between light and dark themes.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🖊️ License
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute this project as you wish.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📧 Contact
+For any inquiries or feedback, please contact me at:
+- **GitHub**: [achrafthedev](https://github.com/achrafthedev)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🌟 **If you like this project, please give it a star on GitHub!** 🌟
